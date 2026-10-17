@@ -1,0 +1,10 @@
+[
+  {"_note": "EXAMPLE ONLY (job shapes from Project A's C067 campaign, shown on the public oxynitride LaTaON2, whose cis/trans order of the two O in each TaO2N4 octahedron is a textbook case). Every job needs name, calc, ranks, priority, nat, nirr_est, formula; a label needs gate.shells + gate.pair_angle. Cite ranks/priority choices as METHOD in the folder CITES.md."},
+  {"name": "p1_LaTaON2_cis_n8_tilt_vrF", "calc": "vc-relax", "ranks": 36, "priority": 1, "nat": 40, "nirr_est": 39,
+   "formula": "LaTaON2", "label": "cis",
+   "gate": {"shells": ["Ta:O,N:6:2.4"], "expect_shell": "O2N4", "pair_angle": "O"},
+   "tests_on_child": true},
+  {"name": "p1_LaTaON2_trans_n4_vrF", "calc": "vc-relax", "ranks": 10, "priority": 2, "nat": 20, "nirr_est": 48,
+   "formula": "LaTaON2", "label": "trans",
+   "gate": {"shells": ["Ta:O,N:6:2.4"], "expect_shell": "O2N4", "pair_angle": "O"}}
+]

@@ -1,0 +1,13 @@
+# personal settings stay local
+LOCAL.md
+# secrets never enter the repo
+.env
+*.env
+id_ed25519*
+id_rsa*
+*.pem
+*.key
+# python and OS noise
+__pycache__/
+*.pyc
+.DS_Store

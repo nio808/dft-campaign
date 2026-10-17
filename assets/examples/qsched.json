@@ -1,0 +1,17 @@
+{
+  "_note": "EXAMPLE ONLY: the values of Project A's campaign C067 (QE 7.3.1 on a 64-core vast box). Replace every value with your project's own, and cite each one in the queue folder's CITES.md (k spacings and test values are physics choices; pw path and ncpus come from the box you validated).",
+  "pw": "/workspace/build/qe-7.3.1-cpu/bin/pw.x",
+  "ncpus": 64,
+  "chain_spacing": 0.2,
+  "tests": [
+    {"tag": "e80", "spacing": 0.2, "override": {"ecut": [80.0, 640.0]}},
+    {"tag": "k15", "spacing": 0.15, "override": {}},
+    {"tag": "d005", "spacing": 0.2, "override": {"degauss": 0.005}}
+  ],
+  "scratch": "/dev/shm/qe",
+  "delete_scratch_done_relax": true,
+  "delete_scratch_done_static": false,
+  "delete_scratch_failed": false,
+  "min_free_disk_gib": 5,
+  "min_mem_gib": 12
+}

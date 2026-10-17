@@ -1,0 +1,5 @@
+[
+  ["runs/queue_boxD/", "box D (EPYC 7Y83, whole machine)", 64],
+  ["runs/queue_boxE/", "box E (2x EPYC 7K62, cgroup quota 46)", 46],
+  ["runs/gcp-", "GCP (EPYC 7B13, 8 vCPU = 8 cores)", 8]
+]
